@@ -1,0 +1,11 @@
+
+
+login:
+  name: 登录接口
+  method: post
+  url: http://192.168.163.131/smart_parking_bg/login
+  data: {"accountName":"gf","password":"vvv333","captcha":"0000","captchaKey":"0000"}
+  headers:
+    Content-Type: application/json
+    Accept: application/json, text/plain, */*
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42
